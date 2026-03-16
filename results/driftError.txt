@@ -1,0 +1,41 @@
+test_model_accuracy(model, h_val = 0.5)
+--- Numerical Accuracy Report ---
+Total Probability at t=0.0: 0.134765
+Total Probability at t=0.5: 0.134696
+Total Probability at t=1.0: 0.142795
+Probability Drift (Error): 5.96%
+
+test_model_accuracy(model, h_val = 1)
+--- Numerical Accuracy Report ---
+Total Probability at t=0.0: 0.144252
+Total Probability at t=0.5: 0.144763
+Total Probability at t=1.0: 0.140486
+Probability Drift (Error): 2.61%
+
+test_model_accuracy(model, h_val = 2)
+--- Numerical Accuracy Report ---
+Total Probability at t=0.0: 0.121766
+Total Probability at t=0.5: 0.121955
+Total Probability at t=1.0: 0.119593
+Probability Drift (Error): 1.78%
+
+test_model_accuracy(model, h_val = 3)
+--- Numerical Accuracy Report ---
+Total Probability at t=0.0: 0.069325
+Total Probability at t=0.5: 0.067538
+Total Probability at t=1.0: 0.066449
+Probability Drift (Error): 4.15%
+
+test_model_accuracy(model, h_val = 4)
+--- Numerical Accuracy Report ---
+Total Probability at t=0.0: 0.035096
+Total Probability at t=0.5: 0.024387
+Total Probability at t=1.0: 0.022695
+Probability Drift (Error): 35.33%
+
+test_model_accuracy(model, h_val = 5)
+--- Numerical Accuracy Report ---
+Total Probability at t=0.0: 0.046284
+Total Probability at t=0.5: 0.013623
+Total Probability at t=1.0: 0.021545
+Probability Drift (Error): 53.45%
